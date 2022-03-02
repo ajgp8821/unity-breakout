@@ -14,7 +14,7 @@ public class BallController : MonoBehaviour {
 
     private void Awake() {
         rig = GetComponent<Rigidbody>();
-        bar = GetComponentInParent<Transform>();
+        bar = transform.parent.GetComponentInParent<Transform>();
     }
 
     private void Start() {
