@@ -630,6 +630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &105936470
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,6 +742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &329873785
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,6 +854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &333352991
 GameObject:
   m_ObjectHideFlags: 0
@@ -963,6 +966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &360568203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,6 +1182,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &387417286
 GameObject:
   m_ObjectHideFlags: 0
@@ -1289,6 +1294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &414345082
 GameObject:
   m_ObjectHideFlags: 0
@@ -1400,6 +1406,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &471181705
 GameObject:
   m_ObjectHideFlags: 0
@@ -1511,6 +1518,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &530084364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,6 +1630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &578637378
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,6 +1742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &581287830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1844,6 +1854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &582479663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,6 +1966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &585842782
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,6 +2078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &590636111
 GameObject:
   m_ObjectHideFlags: 0
@@ -2177,6 +2190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &597375945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2452,6 +2466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -2657,6 +2672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &744634202
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,6 +2784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &768271342
 GameObject:
   m_ObjectHideFlags: 0
@@ -2879,6 +2896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &839571965
 GameObject:
   m_ObjectHideFlags: 0
@@ -3182,6 +3200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -3505,6 +3524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &1105813165
 GameObject:
   m_ObjectHideFlags: 0
@@ -3616,6 +3636,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &1279439405
 GameObject:
   m_ObjectHideFlags: 0
@@ -3824,6 +3845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &1456307198
 GameObject:
   m_ObjectHideFlags: 0
@@ -3935,6 +3957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &1555749350
 GameObject:
   m_ObjectHideFlags: 0
@@ -4046,6 +4069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &1668026450
 GameObject:
   m_ObjectHideFlags: 0
@@ -4090,6 +4114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1835987289}
   - component: {fileID: 1835987288}
+  - component: {fileID: 1835987290}
   m_Layer: 0
   m_Name: GameManagement
   m_TagString: Untagged
@@ -4127,6 +4152,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1835987290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835987287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65e4edfbe48c3834cbc6d779513a27a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textScore: {fileID: 2146352495}
 --- !u!1 &1890580984
 GameObject:
   m_ObjectHideFlags: 0
@@ -4238,6 +4276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &1921904583
 GameObject:
   m_ObjectHideFlags: 0
@@ -4349,6 +4388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &1935952704
 GameObject:
   m_ObjectHideFlags: 0
@@ -4557,6 +4597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &2131196258
 GameObject:
   m_ObjectHideFlags: 0
@@ -4668,6 +4709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleEffect: {fileID: 735964453038501574, guid: d26950679e465be44b85f07987d75b81, type: 3}
+  score: {fileID: 1835987290}
 --- !u!1 &2146352492
 GameObject:
   m_ObjectHideFlags: 0
