@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 27f5f4a23b9ccbf4cbc080d6974e4244, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -4115,6 +4115,7 @@ GameObject:
   - component: {fileID: 1835987289}
   - component: {fileID: 1835987288}
   - component: {fileID: 1835987290}
+  - component: {fileID: 1835987291}
   m_Layer: 0
   m_Name: GameManagement
   m_TagString: Untagged
@@ -4165,6 +4166,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textScore: {fileID: 2146352495}
+--- !u!114 &1835987291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1835987287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9be776500b5e3b04c9be1fa1f48f27e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  exit: 0
 --- !u!1 &1890580984
 GameObject:
   m_ObjectHideFlags: 0
