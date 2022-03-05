@@ -11,7 +11,7 @@ public class ExitButton : MonoBehaviour {
     private void Update() {
         if (Input.GetKeyDown(KeyCode.Escape)) {
             if (exit) {
-                Debug.Log("Salir de juego");
+                // Debug.Log("Salir de juego");
                 Application.Quit();
             }
             else {

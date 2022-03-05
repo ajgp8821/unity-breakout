@@ -15,8 +15,10 @@ public class LivesController : MonoBehaviour {
     GameObject gameOver;
     [SerializeField]
     NextLevel nextLevel;
+    [SerializeField]
+    GameOverSound gameOverSound;
 
-    public static int lives = 50;
+    public static int lives = 3;
 
     private void Start() {
         UpdateLiveCounter();
@@ -30,6 +32,7 @@ public class LivesController : MonoBehaviour {
 
         if (lives <= 0) {
             // GameOver
+            gameOverSound.GameOver();
             gameOver.SetActive(true);
             ball.StopMotion();
             // Debug.Log("bar.enabled antes " + bar.enabled);

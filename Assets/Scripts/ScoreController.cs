@@ -21,6 +21,8 @@ public class ScoreController : MonoBehaviour {
     BallController ball;
     [SerializeField]
     Transform bricksContainer;
+    [SerializeField]
+    GameOverSound gameOverSound;
 
     private void Start() {
         UpdateScoreCounter();
@@ -42,6 +44,8 @@ public class ScoreController : MonoBehaviour {
                 gameCompleted.SetActive(true);
             else
                 levelCompleted.SetActive(true);
+
+            gameOverSound.LevelCompleted();
 
             nextLevel.ActivateLoad();
         }
