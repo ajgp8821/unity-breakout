@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class NextLevel : MonoBehaviour {
 
     [SerializeField]
-    string levelToLoad;
+    public string levelToLoad;
     [SerializeField]
     float delay;
 

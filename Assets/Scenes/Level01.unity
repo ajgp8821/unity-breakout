@@ -4139,6 +4139,8 @@ MonoBehaviour:
   textLives: {fileID: 89234303}
   bar: {fileID: 91587641}
   ball: {fileID: 1031546797}
+  gameOver: {fileID: 846964525}
+  nextLevel: {fileID: 1835987292}
 --- !u!4 &1835987289
 Transform:
   m_ObjectHideFlags: 0
@@ -4192,8 +4194,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4f79eed790036b47b644f2a0b91d459, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: 
-  delay: 0
+  levelToLoad: Title
+  delay: 5
 --- !u!1 &1890580984
 GameObject:
   m_ObjectHideFlags: 0
