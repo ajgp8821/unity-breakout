@@ -12,6 +12,7 @@ public class BlockController : MonoBehaviour {
     private void OnCollisionEnter(Collision collision) {
         Instantiate(particleEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
+        transform.SetParent(null);
         score.UpdateScore();
     }
 }

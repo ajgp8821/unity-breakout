@@ -9,6 +9,18 @@ public class ScoreController : MonoBehaviour {
 
     [SerializeField]
     Text textScore;
+    [SerializeField]
+    BarController bar;
+    [SerializeField]
+    GameObject levelCompleted;
+    [SerializeField]
+    GameObject gameCompleted;
+    [SerializeField]
+    NextLevel nextLevel;
+    [SerializeField]
+    BallController ball;
+    [SerializeField]
+    Transform bricksContainer;
 
     private void Start() {
         UpdateScoreCounter();
@@ -21,5 +33,17 @@ public class ScoreController : MonoBehaviour {
 
     private void UpdateScoreCounter() {
         textScore.text = "Score: " + ScoreController.score;
+
+        if (bricksContainer.childCount <= 0) {
+            ball.StopMotion();
+            bar.enabled = false;
+
+            if (nextLevel.IsLastLevel())
+                gameCompleted.SetActive(true);
+            else
+                levelCompleted.SetActive(true);
+
+            nextLevel.ActivateLoad();
+        }
     }
 }

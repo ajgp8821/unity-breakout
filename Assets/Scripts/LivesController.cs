@@ -16,7 +16,7 @@ public class LivesController : MonoBehaviour {
     [SerializeField]
     NextLevel nextLevel;
 
-    public static int lives = 1;
+    public static int lives = 50;
 
     private void Start() {
         UpdateLiveCounter();
