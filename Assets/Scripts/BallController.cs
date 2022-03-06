@@ -43,11 +43,21 @@ public class BallController : MonoBehaviour {
     public void StopMotion() {
         rig.isKinematic = true;
         rig.velocity = Vector3.zero;
+        isfirstCollision = false;
     }
 
     private void OnCollisionEnter(Collision collision) {
-        if (collision.gameObject.CompareTag("bar") && isfirstCollision) {
+
+        Debug.Log("isfirstCollision -> " + isfirstCollision);
+
+        foreach (ContactPoint contact in collision.contacts) {
+            print(contact.thisCollider.name + " hit " + contact.otherCollider.name);
+            // Visualize the contact point
+            Debug.DrawRay(contact.point, contact.normal, Color.white);
+        }
+        if (collision.gameObject.CompareTag("bar") && isfirstCollision && collision.contacts[0].point.y == -7.5f) {
             float contactPoint = collision.contacts[0].point.x;
+            Debug.Log("collision.contacts[0].point.y " + collision.contacts[0].point.y);
             float positionBarX = collision.gameObject.transform.position.x;
             float colliderPoint = contactPoint - positionBarX;
 
