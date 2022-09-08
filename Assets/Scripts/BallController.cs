@@ -48,14 +48,14 @@ public class BallController : MonoBehaviour {
 
     private void OnCollisionEnter(Collision collision) {
 
-        Debug.Log("isfirstCollision -> " + isfirstCollision);
+        /*Debug.Log("isfirstCollision -> " + isfirstCollision);
 
         foreach (ContactPoint contact in collision.contacts) {
             print(contact.thisCollider.name + " hit " + contact.otherCollider.name);
             // Visualize the contact point
             Debug.DrawRay(contact.point, contact.normal, Color.white);
-        }
-        if (collision.gameObject.CompareTag("bar") && isfirstCollision && collision.contacts[0].point.y == -7.5f) {
+        }*/
+        if (collision.gameObject.CompareTag("bar") && isfirstCollision && collision.contacts[0].point.y == -7.5f && collision.gameObject.transform.position.x ==2) {
             float contactPoint = collision.contacts[0].point.x;
             Debug.Log("collision.contacts[0].point.y " + collision.contacts[0].point.y);
             float positionBarX = collision.gameObject.transform.position.x;
